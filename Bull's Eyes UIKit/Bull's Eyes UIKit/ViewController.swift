@@ -27,7 +27,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         sliderValue = Int(slider.value.rounded())
         startNewRound()
-        // Do any additional setup after loading the view.
+        slider.setThumbImage(#imageLiteral(resourceName: "Icon"), for: .normal)
+        slider.setThumbImage(#imageLiteral(resourceName: "Icon-sombre"), for: .highlighted)
+        
+        let trackLeftImage = #imageLiteral(resourceName: "green")
+        // Pour que la seule la partie intérieure de l'image soit étirée, pas les bords:
+        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+        let trackImageResizable = trackLeftImage.resizableImage(withCapInsets: insets)
+        slider.setMinimumTrackImage(trackImageResizable, for: .normal)
     }
     
     
