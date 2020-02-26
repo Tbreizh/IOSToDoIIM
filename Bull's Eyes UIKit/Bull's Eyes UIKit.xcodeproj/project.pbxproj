@@ -10,11 +10,12 @@
 		CECCE213240671BD00D03C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE212240671BD00D03C8F /* AppDelegate.swift */; };
 		CECCE215240671BD00D03C8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE214240671BD00D03C8F /* SceneDelegate.swift */; };
 		CECCE217240671BD00D03C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE216240671BD00D03C8F /* ViewController.swift */; };
-		CECCE21A240671BD00D03C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCE218240671BD00D03C8F /* Main.storyboard */; };
 		CECCE21C240671BF00D03C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECCE21B240671BF00D03C8F /* Assets.xcassets */; };
 		CECCE21F240671BF00D03C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCE21D240671BF00D03C8F /* LaunchScreen.storyboard */; };
 		CECCE22A240671BF00D03C8F /* Bull_s_Eyes_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE229240671BF00D03C8F /* Bull_s_Eyes_UIKitTests.swift */; };
 		CECCE235240671BF00D03C8F /* Bull_s_Eyes_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE234240671BF00D03C8F /* Bull_s_Eyes_UIKitUITests.swift */; };
+		CECCE24324069F9A00D03C8F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCE24224069F9A00D03C8F /* AboutViewController.swift */; };
+		CECCE2472406A88000D03C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECCE2452406A88000D03C8F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,6 @@
 		CECCE212240671BD00D03C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECCE214240671BD00D03C8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CECCE216240671BD00D03C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CECCE219240671BD00D03C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CECCE21B240671BF00D03C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECCE21E240671BF00D03C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECCE220240671BF00D03C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		CECCE230240671BF00D03C8F /* Bull's Eyes UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bull's Eyes UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECCE234240671BF00D03C8F /* Bull_s_Eyes_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bull_s_Eyes_UIKitUITests.swift; sourceTree = "<group>"; };
 		CECCE236240671BF00D03C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECCE24224069F9A00D03C8F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CECCE2462406A88000D03C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +104,11 @@
 				CECCE212240671BD00D03C8F /* AppDelegate.swift */,
 				CECCE214240671BD00D03C8F /* SceneDelegate.swift */,
 				CECCE216240671BD00D03C8F /* ViewController.swift */,
-				CECCE218240671BD00D03C8F /* Main.storyboard */,
+				CECCE2452406A88000D03C8F /* Main.storyboard */,
 				CECCE21B240671BF00D03C8F /* Assets.xcassets */,
 				CECCE21D240671BF00D03C8F /* LaunchScreen.storyboard */,
 				CECCE220240671BF00D03C8F /* Info.plist */,
+				CECCE24224069F9A00D03C8F /* AboutViewController.swift */,
 			);
 			path = "Bull's Eyes UIKit";
 			sourceTree = "<group>";
@@ -234,7 +237,7 @@
 			files = (
 				CECCE21F240671BF00D03C8F /* LaunchScreen.storyboard in Resources */,
 				CECCE21C240671BF00D03C8F /* Assets.xcassets in Resources */,
-				CECCE21A240671BD00D03C8F /* Main.storyboard in Resources */,
+				CECCE2472406A88000D03C8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +264,7 @@
 			files = (
 				CECCE217240671BD00D03C8F /* ViewController.swift in Sources */,
 				CECCE213240671BD00D03C8F /* AppDelegate.swift in Sources */,
+				CECCE24324069F9A00D03C8F /* AboutViewController.swift in Sources */,
 				CECCE215240671BD00D03C8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CECCE218240671BD00D03C8F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CECCE219240671BD00D03C8F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CECCE21D240671BF00D03C8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CECCE21E240671BF00D03C8F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CECCE2452406A88000D03C8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECCE2462406A88000D03C8F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelScore: UILabel!
     @IBOutlet weak var labelRound: UILabel!
     @IBOutlet weak var resetButton: UIButton!
+    @IBOutlet weak var infoButton: UIButton!
     
     var firstUse :Bool  = true
     var sliderValue: Int = 0
@@ -72,8 +73,6 @@ class ViewController: UIViewController {
         }
         else{
             scoreValue = scoreValue + 100 - abs(targetValue - sliderValue)
-            // BONUS ADD
-            
         }
         
         roundValue += 1
